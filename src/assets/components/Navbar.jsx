@@ -60,7 +60,7 @@ function Navbar() {
           </div>
 
           {/* Search */}
-          <form className="w-1/2 sm:block hidden">
+          <form className="w-1/2 sm:w-1/2 block">
             <input
               type="text"
               placeholder="Search Product"
