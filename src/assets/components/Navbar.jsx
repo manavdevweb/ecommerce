@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import logo from "../imgs/logo/logo.svg"; 
 import { useDispatch, useSelector } from 'react-redux';
 import { setSearchTerm } from '../../features/products/ProductSlice';
-//   <>
+//   <>  +  −   `   ´ &
 // ``
 
 function Navbar() {
@@ -12,6 +12,10 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false); 
   const dispatch = useDispatch(); 
   const searchTerm = useSelector((state)=>state.product.searchTerm); 
+
+  // cart 
+  const cartItems = useSelector((state)=> state.cart.items); 
+  const itemCount = cartItems.reduce((total, item)=> total + item.quantity, 0); 
 
   const handleUser = () => {
     setIsOpen(!isOpen)
@@ -57,9 +61,12 @@ function Navbar() {
            onChange={(e)=> dispatch(setSearchTerm(e.target.value))}/>
 
         </form>
-        <Link>
+        <div className='relative'>
+                  <Link to={"/cart"}>
         <ShoppingCart className='cursor-pointer bg-gray-100 px-3 rounded-full' size={54}/>
+        {itemCount > 0 && <span className='absolute -top-2 -right-1 bg-blue-600 text-white text-xs rounded-full w-5 h-5 items-center justify-center flex'>{itemCount}</span> }
         </Link>
+        </div>
       </nav>
       </div>
       </>

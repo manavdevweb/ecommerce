@@ -3,7 +3,7 @@ const products = [
     {
     id: 1,
     title: "AMD Ryzen 5 3600",
-    price: "$100",
+    price: "100",
     category: "CPU",
     description: "poopy description pr le moment", 
     image : "/src/assets/imgs/cpu/ryzen53600.jpg"

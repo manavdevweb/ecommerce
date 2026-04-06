@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+//   <>
 
 function ProductCard({product}) {
+  console.log(product.id);
   return (
-    <Link>
+    <Link to={`/product/${product.id}`}>
     <div className='shadow-lg rounded-md cursor-pointer'>
-      <img src={product.image} alt="Image of Product" className='w-full h-64 object-contain bg-white'/>
+      <img src={product.image} alt="Image of Product" className='w-full h-64 object-contain bg-white p-4'/>
       <div className='bg-gray-50 p-4'>
         <h2 className='text-lg font-semibold my-4'>{product.title.substring(0, 25) + "..."}</h2>
         <p className='text-sm text-zinc-500 border-b-2 pb-4'>{product.description.substring(0, 70) + "..."}</p>
