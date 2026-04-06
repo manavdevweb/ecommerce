@@ -6,7 +6,7 @@ const products = [
     price: "100",
     category: "CPU",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/cpu/ryzen53600.jpg"
+    image : "/imgs/cpu/ryzen53600.jpg"
   },
       {
     id: 2,
@@ -14,7 +14,7 @@ const products = [
     price: 19.99,
     category: "CPU",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/cpu/ryzen54500.jpg"
+    image : "/imgs/cpu/ryzen54500.jpg"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const products = [
     price: 19.99,
     category: "CPU",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/cpu/ryzen55600.jpg"
+    image : "/imgs/cpu/ryzen55600.jpg"
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const products = [
     price: 19.99,
     category: "CPU",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/cpu/ryzen57600x.jpg"
+    image : "/imgs/cpu/ryzen57600x.jpg"
   },
 
   {
@@ -39,7 +39,7 @@ const products = [
     price: 19.99,
     category: "Graphic Cards",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/gpu/carte-graphique-msi-nvidia-geforce-rtx-5060-8g-gaming-oc.jpg"
+    image : "/imgs/gpu/carte-graphique-msi-nvidia-geforce-rtx-5060-8g-gaming-oc.jpg"
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const products = [
     price: 19.99,
     category: "Graphic Cards",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/gpu/nvidiartx507012gbargb.webp"
+    image : "/imgs/gpu/nvidiartx507012gbargb.webp"
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const products = [
     price: 19.99,
     category: "Graphic Cards",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/gpu/rtx3060.jpg"
+    image : "/imgs/gpu/rtx3060.jpg"
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ const products = [
     price: 19.99,
     category: "Graphic Cards",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/gpu/rtx5090.jpg"
+    image : "/imgs/gpu/rtx5090.jpg"
   },
   {
     id: 9,
@@ -71,7 +71,7 @@ const products = [
     price: 19.99,
     category: "Phone",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/phone/iphone/iphone-17-pro.jpg"
+    image : "/imgs/phone/iphone/iphone-17-pro.jpg"
   },
   {
     id: 10,
@@ -79,7 +79,7 @@ const products = [
     price: 19.99,
     category: "Phone",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/phone/iphone/iphone13.jpg"
+    image : "/imgs/phone/iphone/iphone13.jpg"
   },
   {
     id: 11,
@@ -87,7 +87,7 @@ const products = [
     price: 19.99,
     category: "Phone",
     description: "poopy description pr le moment", 
-    image : "/src/assets/imgs/phone/iphone/iphone16.jpg"
+    image : "/imgs/phone/iphone/iphone16.jpg"
   },
 
 

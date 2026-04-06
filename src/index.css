@@ -7,7 +7,7 @@ body {
 }
 
 .bg{
-    background: url('./assets/imgs/logo/applebackground.jpg') ;
+    background: url('/imgs/logo/applebackground.jpg') ;
     background-size: cover;
     height: 70vh;
 }
