@@ -50,8 +50,8 @@ function Navbar() {
       <div className='bg-red-950'>
       <nav className='flex justify-between items-center container mx-auto md:py-6 py-8 px-2'>
         <div className='flex items-center'>
-          <Link to='/' className='bg-gray-700 py-2 px-4 rounded'>
-          <img src={logo} alt="logo" className='h-10 object-contain' /></Link>
+          <Link to='/' className=' py-2 px-4 rounded'>
+          <img src={logo} alt="logo" className='h-15 object-contain rounded-full' /></Link>
         </div>
         <form className='w-1/2 sm:block hidden'>
           <input type="text"
