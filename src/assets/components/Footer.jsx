@@ -30,7 +30,7 @@ function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
 
             <div>
-              <img src="/imgs/logo/logo.svg" alt="logo" className="my-4" width={100} />
+              <img src="/imgs/logo/logo.svg" alt="logo" className="my-4 rounded-full" width={100} />
               <p>pooppy poppy pop</p>
 
               <div className="flex items-center gap-8 mt-5">
