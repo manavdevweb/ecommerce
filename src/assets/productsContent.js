@@ -67,7 +67,7 @@ const products = [
   },
   {
     id: 9,
-    title: "Iphone 17 pro",
+    title: "Iphone 17 Pro",
     price: 19.99,
     category: "Phone",
     description: "poopy description pr le moment", 
@@ -76,7 +76,7 @@ const products = [
   {
     id: 10,
     title: "Iphone 13",
-    price: 19.99,
+    price: 299.99,
     category: "Phone",
     description: "poopy description pr le moment", 
     image : "/imgs/phone/iphone/iphone13.jpg"
@@ -84,10 +84,18 @@ const products = [
   {
     id: 11,
     title: "Iphone 16",
-    price: 19.99,
+    price: 599.99,
     category: "Phone",
     description: "poopy description pr le moment", 
     image : "/imgs/phone/iphone/iphone16.jpg"
+  },
+  {
+    id: 12,
+    title: "Samsung Galaxy S24",
+    price: 500,
+    category: "Phone",
+    description: "poopy description pr le moment", 
+    image : "/imgs/phone/samsung/samsungs24.jpg"
   },
 
 
