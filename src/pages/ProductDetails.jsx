@@ -45,7 +45,7 @@ if(!product){
               {product.title}
             </h1>
 
-            <p className='text-gray-600 mb-6'>
+            <p className='text-gray-600 mb-6 whitespace-pre-line'>
               {product.description}
             </p>
 

@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <header className="bg-white shadow-md">
 
-      <div className="py-4 shadow-md bg-black">
+      <div className="py-4 shadow-md bg-zinc-800">
         <ul className="container mx-auto flex flex-wrap justify-between md:flex-row px-4 md:px-2 items-center relative">
 
           <div className="flex gap-4">
@@ -45,7 +45,7 @@ function Navbar() {
         </ul>
       </div>
 
-      <div className="bg-red-950">
+      <div className="bg-white">
         <nav className="flex justify-between items-center container mx-auto md:py-6 py-8 px-2">
 
           {/* Logo */}
@@ -54,7 +54,7 @@ function Navbar() {
               <img
                 src="/imgs/logo/logo.svg"
                 alt="logo"
-                className="h-12 object-contain rounded-full"
+                className="h-15 object-contain rounded-full"
               />
             </Link>
           </div>

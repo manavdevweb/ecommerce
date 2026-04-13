@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-black shadow-md">
+    <footer className="bg-zinc-800 shadow-md">
       <div className="container mx-auto px-4">
         <div className="min-h-16">
           <div className="flex justify-between items-center flex-col md:flex-row py-10">
@@ -25,13 +25,13 @@ function Footer() {
         </div>
       </div>
 
-      <div className="bg-red-950 text-white py-8">
+      <div className="bg-white text-black py-8">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
 
             <div>
               <img src="/imgs/logo/logo.svg" alt="logo" className="my-4 rounded-full" width={100} />
-              <p>pooppy poppy pop</p>
+              <p>Thank you for visiting my website !</p>
 
               <div className="flex items-center gap-8 mt-5">
                 <img src="/imgs/social/facebook.svg" alt="facebook" width={40} className="bg-white rounded-md p-2 cursor-pointer" />
